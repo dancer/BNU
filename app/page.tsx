@@ -458,7 +458,7 @@ export default function Page() {
             </Link>{" "}
             &{" "}
             <Link
-              href="https://instagram.com/za.mander/"
+              href="https://linktr.ee/benza._._"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
