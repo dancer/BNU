@@ -357,30 +357,28 @@ export default function Page() {
                 <TabsTrigger value="activities">Activities</TabsTrigger>
                 <TabsTrigger value="preparation">Preparation</TabsTrigger>
               </TabsList>
-              <TabsContent value="dates">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Croatia - Porec</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="list-disc list-inside text-sm font-medium">
-                      <li>5th-11th April</li>
-                      <li>12th-18th April</li>
-                      <li>21st-27th April</li>
-                    </ul>
-                  <CardHeader>
-                    <CardTitle>Spain - Salou</CardTitle>
-                  </CardHeader>
-                    <ul className="list-disc list-inside text-sm font-medium">
-                      <li>11th - 15th June</li>
-                    </ul>
-                    <p className="text-sm font-medium mt-4">
-                      The final date will be confirmed during committee
-                      training. Stay tuned for updates!
-                    </p>
-                  </CardContent>
-                </Card>
-              </TabsContent>
+      <TabsContent value="dates">
+          <Card>
+            <CardHeader>
+              <CardTitle>Tour Dates</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <h3 className="text-lg font-semibold mb-2">Croatia - Porec</h3>
+              <ul className="list-disc list-inside text-sm font-medium mb-4">
+                <li>5th-11th April</li>
+                <li>12th-18th April</li>
+                <li>21st-27th April</li>
+              </ul>
+              <h3 className="text-lg font-semibold mb-2">Spain - Salou</h3>
+              <ul className="list-disc list-inside text-sm font-medium mb-4">
+                <li>11th - 15th June</li>
+              </ul>
+              <p className="text-sm font-medium mt-4">
+                The final date will be confirmed during committee training. Stay tuned for updates!
+              </p>
+            </CardContent>
+          </Card>
+        </TabsContent>
               <TabsContent value="activities">
                 <Card>
                   <CardHeader>
