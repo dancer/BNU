@@ -373,9 +373,6 @@ export default function Page() {
               <ul className="list-disc list-inside text-sm font-medium mb-4">
                 <li>11th - 15th June</li>
               </ul>
-              <p className="text-sm font-medium mt-4">
-                The final date will be confirmed during committee training. Stay tuned for updates!
-              </p>
             </CardContent>
           </Card>
         </TabsContent>
